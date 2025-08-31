@@ -6,7 +6,7 @@ sort numbers.txt
 
 # 2. Print the IP address of the machine
 # Your command here
-ip a
+ip addr show
 
 # 3. Show the contents of a file named "readme.txt" in the current directory
 # Your command here
@@ -14,11 +14,11 @@ cat readme.txt
 
 # 4. Count the number of lines in "data.csv"
 # Your command here
-wc -1 filename.txt
+wc -l data.csv
 
 # 5. Find all files containing the word "error" in the "logs" folder
 # Your command here
-grep "error" /logs
+grep -r "error" logs/
 
 # 6. Display the last 10 lines of "app.log"
 # Your command 
